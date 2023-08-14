@@ -5,9 +5,9 @@ body {
 }
 
 main {
-    width: 100vw;
-    height: 100vh;
-    background-color: #f2f2f2;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f2f2f2;
 }
 
 .chat-container {
@@ -28,16 +28,19 @@ main {
 }
 
 .message {
+  width: 90%;
   margin-bottom: 8px;
   border-radius: 8px;
   padding: 8px;
 }
 
 .message-sender {
-    background: #c694f5;
+  margin-right: auto;
+  background: #c694f5;
 }
 
 .message-receiver {
+  margin-left: auto;
   background: #8ec5fc;
 }
 
@@ -71,4 +74,3 @@ main {
   cursor: pointer;
   background: #8ec5fc;
 }
-

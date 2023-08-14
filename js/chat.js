@@ -5,7 +5,7 @@ btnSend = document.querySelector('.btn-send')
 messages = []
 
 btnSend.addEventListener('click', () => {
-    messages.push(input.value)
+    // messages.push(input.value)
     createMessage(input.value)
     input.value = ''
 })
